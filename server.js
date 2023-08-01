@@ -8,6 +8,10 @@ app.get("/api/hello", (req, res) => {
     });
 });
 
+app.get("/", (req, res) => {
+    res.send("The app is working");
+});
+
 app.listen(5000, () => {
     console.log("listening on port 5000");
 });
