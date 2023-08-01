@@ -3,7 +3,7 @@ const app = express();
 
 app.get("/api/hello", (req, res) => {
     console.log("pinged the api");
-    res.status(500).json({
+    res.status(200).json({
         message: "Hello",
     });
 });
