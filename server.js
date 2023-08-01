@@ -4,7 +4,7 @@ const app = express();
 app.get("/api/hello", (req, res) => {
     console.log("pinged the api");
     res.status(200).json({
-        message: "Hello",
+        message: "Hello I am sentient human from axios",
     });
 });
 
